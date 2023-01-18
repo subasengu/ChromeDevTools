@@ -20,7 +20,7 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		
 		ChromeDriver driver = new ChromeDriver();
 		//log file ->
-		
+		System.out.println("testing for github");
 		DevTools devTools = driver.getDevTools();
 		devTools.createSession();
 		devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
