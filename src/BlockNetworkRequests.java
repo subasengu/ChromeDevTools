@@ -44,5 +44,10 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		
 		
 	}
+	
+	public void checkGit()
+	{
+		System.out.println("just for checking git hub");
+	}
 
 }
